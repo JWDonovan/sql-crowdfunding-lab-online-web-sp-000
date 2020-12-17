@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS users (
 
 CREATE TABLE IF NOT EXISTS pledges (
   id INTEGER PRIMARY KEY,
-  user_id INTEGER FOREIGN KEY,
-  project_id INTEGER FOREIGN KEY,
+  user_id INTEGER,
+  project_id INTEGER,
   amount NUMBER
 );

@@ -4,5 +4,5 @@ CREATE TABLE IF NOT EXISTS projects (
   category TEXT,
   funding_goal NUMBER,
   start_date DATE,
-
+  end_date DATE
 )

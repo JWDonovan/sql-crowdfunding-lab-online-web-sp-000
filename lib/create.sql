@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS projects (
+CREATE TABLE projects (
   id INTEGER PRIMARY KEY,
   title TEXT,
   category TEXT,
@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS projects (
   end_date DATE
 )
 
-CREATE TABLE IF NOT EXISTS users (
+CREATE TABLE users (
   id INTEGER PRIMARY KEY,
   name TEXT,
   age INTEGER
